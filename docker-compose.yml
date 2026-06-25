@@ -1,0 +1,43 @@
+name: ffmpeg-sound-mixer-api
+
+services:
+  sound-mixer-api:
+    container_name: ffmpeg-sound-mixer-api
+    build:
+      context: .
+    restart: unless-stopped
+    environment:
+      LOUDNESS_API_TIMEOUT_SECONDS: "60"
+      LOUDNESS_API_PROCESSING_TIMEOUT_SECONDS: "600"
+      LOUDNESS_API_DATA_DIR: /data
+      LOUDNESS_API_LOG_FILE: /data/sound-mixer-api.log
+      LOUDNESS_API_PUBLIC_BASE_URL: https://sound-mixer-api.jamrockdev.com
+      LOUDNESS_API_ALLOWED_WEBHOOK_URLS: "https://fvaaxuhjofhbngkalqcv.supabase.co/functions/v1/*,https://sxlwnmfsiahrqxfpkqmz.supabase.co/functions/v1/receive-vocals"
+      LOUDNESS_API_NOTIFY_EMAIL_TO: brian@jamrockdev.com
+      LOUDNESS_API_NOTIFY_EMAIL_FROM: no-reply-server@mail.zalkinteractive.com
+      # Set SOUND_MIXER_RESEND_API_KEY to enable clone-specific email notifications.
+      RESEND_API_KEY: ${SOUND_MIXER_RESEND_API_KEY:-}
+      # Set SOUND_MIXER_OPENAI_API_KEY to enable the AI mastering planner.
+      OPENAI_API_KEY: ${SOUND_MIXER_OPENAI_API_KEY:-}
+      MASTERING_AI_PROVIDER: ${MASTERING_AI_PROVIDER:-auto}
+      MASTERING_OPENAI_MODEL: ${MASTERING_OPENAI_MODEL:-gpt-5.5}
+      # Set this to enable X-API-KEY auth.
+      LOUDNESS_API_KEY: ${LOUDNESS_API_KEY:-}
+    volumes:
+      - sound-mixer-api-data:/data
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=supabase_default
+      - traefik.http.routers.sound-mixer-api-host.rule=Host(`sound-mixer-api.jamrockdev.com`)
+      - traefik.http.routers.sound-mixer-api-host.entrypoints=websecure
+      - traefik.http.routers.sound-mixer-api-host.tls.certresolver=letsencrypt
+      - traefik.http.services.sound-mixer-api.loadbalancer.server.port=8080
+    networks:
+      - supabase_default
+
+networks:
+  supabase_default:
+    external: true
+
+volumes:
+  sound-mixer-api-data:

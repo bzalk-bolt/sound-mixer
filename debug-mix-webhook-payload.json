@@ -1,0 +1,444 @@
+{
+  "data": {
+    "analysis": {
+      "backing": {
+        "astats": {
+          "channels": {
+            "1": {
+              "abs_peak_count": 1.0,
+              "bit_depth": null,
+              "crest_factor": 5.160879,
+              "dc_offset": -3.2e-05,
+              "dynamic_range": 291.196462,
+              "entropy": 0.862063,
+              "flat_factor": 0.0,
+              "max_difference": 0.540762,
+              "max_level": 0.810495,
+              "mean_difference": 0.01586,
+              "min_difference": 0.0,
+              "min_level": -0.801465,
+              "noise_floor_count": 151108.0,
+              "noise_floor_db": null,
+              "number_of_denormals": 0.0,
+              "number_of_infs": 0.0,
+              "number_of_nans": 0.0,
+              "peak_count": 2.0,
+              "peak_level_db": -1.82499,
+              "rms_difference": 0.023312,
+              "rms_level_db": -16.079464,
+              "rms_peak_db": -10.5156,
+              "rms_trough_db": -392.923279,
+              "zero_crossings": 217102.0,
+              "zero_crossings_rate": 0.039754
+            },
+            "2": {
+              "abs_peak_count": 1.0,
+              "bit_depth": null,
+              "crest_factor": 5.297257,
+              "dc_offset": -4e-06,
+              "dynamic_range": 317.433968,
+              "entropy": 0.867045,
+              "flat_factor": 0.0,
+              "max_difference": 0.736606,
+              "max_level": 0.873371,
+              "mean_difference": 0.017845,
+              "min_difference": 0.0,
+              "min_level": -0.86566,
+              "noise_floor_count": 150532.0,
+              "noise_floor_db": null,
+              "number_of_denormals": 0.0,
+              "number_of_infs": 0.0,
+              "number_of_nans": 0.0,
+              "peak_count": 2.0,
+              "peak_level_db": -1.176021,
+              "rms_difference": 0.026041,
+              "rms_level_db": -15.657042,
+              "rms_peak_db": -11.188227,
+              "rms_trough_db": -392.788534,
+              "zero_crossings": 232041.0,
+              "zero_crossings_rate": 0.04249
+            }
+          },
+          "overall": {
+            "abs_peak_count": 1.0,
+            "bit_depth": null,
+            "dc_offset": -3.2e-05,
+            "entropy": 0.864554,
+            "flat_factor": 0.0,
+            "max_difference": 0.736606,
+            "max_level": 0.873371,
+            "mean_difference": 0.016852,
+            "min_difference": 0.0,
+            "min_level": -0.86566,
+            "noise_floor_count": 150820.0,
+            "noise_floor_db": null,
+            "number_of_denormals": 0.0,
+            "number_of_infs": 0.0,
+            "number_of_nans": 0.0,
+            "number_of_samples": 5461103.0,
+            "peak_count": 2.0,
+            "peak_level_db": -1.176021,
+            "rms_difference": 0.024714,
+            "rms_level_db": -15.863119,
+            "rms_peak_db": -10.5156,
+            "rms_trough_db": -392.923279
+          }
+        },
+        "loudnorm": {
+          "input_i": -13.17,
+          "input_lra": 1.2,
+          "input_thresh": -23.42,
+          "input_tp": -1.12,
+          "normalization_type": "dynamic",
+          "output_i": -15.93,
+          "output_lra": 1.1,
+          "output_thresh": -26.16,
+          "output_tp": -3.77,
+          "success": true,
+          "target_offset": -0.07
+        },
+        "probe": {
+          "bit_rate": 128061,
+          "channel_layout": "stereo",
+          "channels": 2,
+          "codec_name": "mp3",
+          "duration": 123.820408,
+          "sample_rate": 44100,
+          "size": 1982079,
+          "stream_bit_rate": 128000
+        },
+        "volume": {
+          "max_volume": -1.2,
+          "mean_volume": -15.9
+        }
+      },
+      "vocal": {
+        "astats": {
+          "channels": {
+            "1": {
+              "abs_peak_count": 1.0,
+              "bit_depth": null,
+              "crest_factor": 8.474333,
+              "dc_offset": -3e-05,
+              "dynamic_range": 300.997098,
+              "entropy": 0.494781,
+              "flat_factor": 0.0,
+              "max_difference": 0.125917,
+              "max_level": 0.8508,
+              "mean_difference": 0.003192,
+              "min_difference": 0.0,
+              "min_level": -0.856126,
+              "noise_floor_count": 384189.0,
+              "noise_floor_db": null,
+              "number_of_denormals": 0.0,
+              "number_of_infs": 0.0,
+              "number_of_nans": 0.0,
+              "peak_count": 2.0,
+              "peak_level_db": -1.349243,
+              "rms_difference": 0.010242,
+              "rms_level_db": -19.911354,
+              "rms_peak_db": -5.698939,
+              "rms_trough_db": null,
+              "zero_crossings": 439409.0,
+              "zero_crossings_rate": 0.075973
+            },
+            "2": {
+              "abs_peak_count": 5783760.0,
+              "bit_depth": null,
+              "crest_factor": 1.0,
+              "dc_offset": 0.0,
+              "dynamic_range": null,
+              "entropy": -0.0,
+              "flat_factor": null,
+              "max_difference": 0.0,
+              "max_level": 0.0,
+              "mean_difference": 0.0,
+              "min_difference": 0.0,
+              "min_level": 0.0,
+              "noise_floor_count": 5781361.0,
+              "noise_floor_db": null,
+              "number_of_denormals": 0.0,
+              "number_of_infs": 0.0,
+              "number_of_nans": 0.0,
+              "peak_count": 11567520.0,
+              "peak_level_db": null,
+              "rms_difference": 0.0,
+              "rms_level_db": null,
+              "rms_peak_db": null,
+              "rms_trough_db": null,
+              "zero_crossings": 0.0,
+              "zero_crossings_rate": 0.0
+            }
+          },
+          "overall": {
+            "abs_peak_count": 2891880.5,
+            "bit_depth": null,
+            "dc_offset": -3e-05,
+            "entropy": 0.24739,
+            "flat_factor": -135.244207,
+            "max_difference": 0.125917,
+            "max_level": 0.8508,
+            "mean_difference": 0.001596,
+            "min_difference": 0.0,
+            "min_level": -0.856126,
+            "noise_floor_count": 3082775.0,
+            "noise_floor_db": null,
+            "number_of_denormals": 0.0,
+            "number_of_infs": 0.0,
+            "number_of_nans": 0.0,
+            "number_of_samples": 5783760.0,
+            "peak_count": 5783761.0,
+            "peak_level_db": -1.349243,
+            "rms_difference": 0.007242,
+            "rms_level_db": -22.921654,
+            "rms_peak_db": -5.698939,
+            "rms_trough_db": null
+          }
+        },
+        "channel_detection": {
+          "mode": "one_sided",
+          "needs_centering": true,
+          "reason": "one channel is silent or nearly silent",
+          "rms_spread_db": null
+        },
+        "loudnorm": {
+          "input_i": -15.53,
+          "input_lra": 18.1,
+          "input_thresh": -29.38,
+          "input_tp": -1.35,
+          "normalization_type": "dynamic",
+          "output_i": -14.53,
+          "output_lra": 12.1,
+          "output_thresh": -27.55,
+          "output_tp": -1.5,
+          "success": true,
+          "target_offset": -1.47
+        },
+        "probe": {
+          "bit_rate": 79787,
+          "channel_layout": "stereo",
+          "channels": 2,
+          "codec_name": "mp3",
+          "duration": 120.528,
+          "sample_rate": 48000,
+          "size": 1202084,
+          "stream_bit_rate": 79785
+        },
+        "silence_ranges": [
+          {
+            "duration": 9.358688,
+            "end": 9.358688,
+            "start": 0.0
+          },
+          {
+            "duration": 0.710396,
+            "end": 10.4155,
+            "start": 9.705104
+          },
+          {
+            "duration": 0.523396,
+            "end": 11.891813,
+            "start": 11.368417
+          },
+          {
+            "duration": 2.120813,
+            "end": 14.039792,
+            "start": 11.918979
+          },
+          {
+            "duration": 2.426542,
+            "end": 18.23525,
+            "start": 15.808708
+          },
+          {
+            "duration": 1.108625,
+            "end": 20.046083,
+            "start": 18.937458
+          },
+          {
+            "duration": 0.679334,
+            "end": 21.675646,
+            "start": 20.996312
+          },
+          {
+            "duration": 1.042771,
+            "end": 23.406271,
+            "start": 22.3635
+          },
+          {
+            "duration": 1.3155,
+            "end": 25.817896,
+            "start": 24.502396
+          },
+          {
+            "duration": 0.856792,
+            "end": 27.676542,
+            "start": 26.81975
+          },
+          {
+            "duration": 0.53125,
+            "end": 28.273583,
+            "start": 27.742333
+          },
+          {
+            "duration": 1.224583,
+            "end": 30.012958,
+            "start": 28.788375
+          },
+          {
+            "duration": 1.001708,
+            "end": 31.911229,
+            "start": 30.909521
+          },
+          {
+            "duration": 2.0305,
+            "end": 34.018792,
+            "start": 31.988292
+          },
+          {
+            "duration": 0.973041,
+            "end": 36.887083,
+            "start": 35.914042
+          },
+          {
+            "duration": 0.869792,
+            "end": 38.957646,
+            "start": 38.087854
+          },
+          {
+            "duration": 0.827166,
+            "end": 43.382833,
+            "start": 42.555667
+          },
+          {
+            "duration": 1.106104,
+            "end": 45.4615,
+            "start": 44.355396
+          },
+          {
+            "duration": 0.834833,
+            "end": 47.222125,
+            "start": 46.387292
+          },
+          {
+            "duration": 0.614084,
+            "end": 49.371917,
+            "start": 48.757833
+          },
+          {
+            "duration": 1.268,
+            "end": 51.766083,
+            "start": 50.498083
+          },
+          {
+            "duration": 0.559542,
+            "end": 53.314896,
+            "start": 52.755354
+          },
+          {
+            "duration": 4.595416,
+            "end": 59.622458,
+            "start": 55.027042
+          },
+          {
+            "duration": 0.806354,
+            "end": 63.228083,
+            "start": 62.421729
+          },
+          {
+            "duration": 1.550708,
+            "end": 67.9305,
+            "start": 66.379792
+          },
+          {
+            "duration": 0.815084,
+            "end": 73.368313,
+            "start": 72.553229
+          },
+          {
+            "duration": 0.645625,
+            "end": 76.061833,
+            "start": 75.416208
+          },
+          {
+            "duration": 0.861354,
+            "end": 79.963062,
+            "start": 79.101708
+          },
+          {
+            "duration": 0.750562,
+            "end": 84.088604,
+            "start": 83.338042
+          },
+          {
+            "duration": 0.880604,
+            "end": 89.137375,
+            "start": 88.256771
+          },
+          {
+            "duration": 0.5315,
+            "end": 93.649833,
+            "start": 93.118333
+          },
+          {
+            "duration": 0.986521,
+            "end": 95.758208,
+            "start": 94.771687
+          },
+          {
+            "duration": 0.682312,
+            "end": 97.491458,
+            "start": 96.809146
+          },
+          {
+            "duration": 0.532479,
+            "end": 99.724625,
+            "start": 99.192146
+          },
+          {
+            "duration": 0.918063,
+            "end": 101.954542,
+            "start": 101.036479
+          },
+          {
+            "duration": 14.564146,
+            "end": 120.495,
+            "start": 105.930854
+          }
+        ],
+        "volume": {
+          "max_volume": -1.3,
+          "mean_volume": -22.9
+        }
+      }
+    },
+    "mix_decisions": {
+      "backing_input_i": -13.17,
+      "backing_target_i": -18.0,
+      "final_target_i": -14.0,
+      "final_true_peak": -1.5,
+      "preserve_timing": true,
+      "strategy": "center vocal, clean/normalize vocal, normalize backing for headroom, mix, then final loudness normalize",
+      "trim_vocal": false,
+      "vocal_channel_mode": "one_sided",
+      "vocal_channel_reason": "one channel is silent or nearly silent",
+      "vocal_input_i": -15.53,
+      "vocal_needs_centering": true,
+      "vocal_target_i": -16.0
+    },
+    "original_request": {
+      "output_files": {
+        "out_1": "FINAL_MIX_fe5e88d9-0310-4f9e-8bae-96b36c124d2c.mp3"
+      }
+    },
+    "output_files": {
+      "out_1": {
+        "storage_url": "https://loudness-api.jamrockdev.com/tmp/mix-0cd42a1b720943c78bedf70f5e5a709f/FINAL_MIX_fe5e88d9-0310-4f9e-8bae-96b36c124d2c.mp3"
+      }
+    },
+    "status": "COMPLETED",
+    "webhook_metadata": {
+      "recording_id": "fe5e88d9-0310-4f9e-8bae-96b36c124d2c"
+    }
+  }
+}
