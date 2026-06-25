@@ -7,6 +7,7 @@ RUN apt-get update \
 WORKDIR /app
 
 COPY app.py /app/app.py
+COPY sound_mixer_api /app/sound_mixer_api
 COPY measure-loudness.md /app/measure-loudness.md
 COPY mastering-ui-guide.md /app/mastering-ui-guide.md
 COPY voice-gate-guide.md /app/voice-gate-guide.md
